@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html/css homework</title>
+    <style>
+      h1 {
+        text-align: center;
+        margin: 0;
+      }
+
+      h2 {
+        text-align: center;
+        font-weight: normal;
+        font-size: xx-large;
+        line-height: 48px;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      ul {
+        text-align: center;
+        list-style-type: none;
+        display: inline;
+        margin: 0 auto;
+      }
+
+      h3 {
+        font-weight: normal;
+      }
+
+      li {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        list-style: none;
+        text-align: center;
+      }
+      li:hover {
+        background: #fffbef;
+      }
+
+      button {
+        background: #1a64d6;
+        width: 130px;
+        color: #ffffff;
+        border: 1px solid #1a64d6;
+        border-radius: 40px;
+        margin: 20px auto;
+        display: block;
+        padding: 20px;
+        transition: all 200ms ease-in-out;
+        font-size: medium;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0px;
+      }
+
+      button:hover {
+        background: transparent;
+        border: 1px solid #1a64d6;
+        color: #1a64d6;
+        cursor: pointer;
+      }
+
+      p {
+        opacity: 0.7;
+        font-size: 18px;
+        font-family: monospace;
+      }
+
+      .actual-weather {
+        color: #1a64d6;
+      }
+
+      .full-text {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="full-text">
+      <h1>
+        ⛅
+        <div class="actual-weather">Currently 21&deg; in Tokyo</div>
+      </h1>
+      <h2>
+        13&deg; /
+        <strong>23&deg;</strong>
+      </h2>
+      <ul>
+        <li>
+          <h3>
+            🌧️ <strong>Tomorrow</strong> <br />
+            10&deg; / <strong>22&deg;</strong>
+          </h3>
+        </li>
+        <li>
+          <h3>
+            🌥️ <strong>Saturday</strong> <br />
+            15&deg; / <strong>17&deg;</strong>
+          </h3>
+        </li>
+        <li>
+          <h3>
+            ☀️ <strong>Sunday</strong> <br />25&deg; / <strong>28&deg;</strong>
+          </h3>
+        </li>
+      </ul>
+      <button>Change city</button>
+      <p>Coded by Ruth Okoduwa</p>
+    </div>
+  </body>
+</html>
